@@ -1,0 +1,48 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.19.4",
+    "@metaplex/js": "^4.12.0",
+    "@project-serum/anchor": "^0.26.0",
+    "@project-serum/spl-token": "^0.26.0",
+    "@solana/spl-account-compression": "^0.1.10",
+    "@solana/spl-name-service": "^0.1.4",
+    "@solana/spl-token": "^0.3.10",
+    "@solana/spl-token-registry": "^0.2.7",
+    "@solana/wallet-adapter-base": "^0.9.20",
+    "@solana/wallet-adapter-react": "^0.15.28",
+    "@solana/wallet-adapter-react-ui": "^0.9.27",
+    "@solana/wallet-adapter-sollet": "^0.11.17",
+    "@solana/wallet-adapter-wallets": "^0.19.20",
+    "@solana/web3.js": "^1.87.6",
+    "@tailwindcss/typography": "^0.5.9",
+    "axios": "^1.4.0",
+    "bs58": "^5.0.0",
+    "classnames": "^2.3.2",
+    "daisyui": "^2.46.1",
+    "ipfs-http-client": "^60.0.1",
+    "latest-version": "^7.0.0",
+    "next": "^13.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "swr": "^2.0.0",
+    "tailwind": "^2.2.0",
+    "theme-change": "^2.3.0",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.31.0",
+    "eslint-config-next": "13.1.1",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.9.4"
+  }
+}
